@@ -2,6 +2,7 @@ package com.wuwen.mvp.demo
 
 import android.app.Application
 import com.kotlin.retrofit.wuwen.RetrofitHelper
+import com.kotlin.retrofit.wuwen.util.CrashUtil
 
 class BaseApplication :Application(){
 
@@ -9,6 +10,7 @@ class BaseApplication :Application(){
         super.onCreate()
         retrofit = RetrofitHelper.getDefault().create(ApiService::class.java)
 
+        CrashUtil.getInstance().init(this)
     }
 
     companion object {
