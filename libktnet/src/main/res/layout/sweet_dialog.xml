@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:background="@drawable/background_sweet_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/divider_line"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="这是对话框内容显示区域"
+        android:textColor="@color/lightGray"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_above="@+id/layout_button"
+        android:background="#dadada" />
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_negative"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:text="取消"
+            android:textColor="@color/deepGray"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/middle_divider_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dadada" />
+
+        <Button
+            android:id="@+id/btn_positive"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:text="确定"
+            android:textColor="@color/deepGray"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

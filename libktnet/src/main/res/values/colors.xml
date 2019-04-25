@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#A3141E</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="colorQQBackgroundStart">#7d0202</color>
+    <color name="colorQQBackgroundEnd">#ff3d3d</color>
+    <color name="colorQQBackgroundCenter">#34b0fc</color>
+    <color name="darkyellow">#FFCC33</color>
+
+    <!--Activity滑动返回背景-->
+    <color name="colorSwipeBackBackground">#3b3b3b</color>
+    <color name="gray">#ddd</color>
+    <color name="colorBlue">#1e73ff</color>
+    <color name="grey">#ebebeb</color>
+    <color name="fire_warn">#262C35</color>
+    <color name="commonBackgroundColor">#1b1c21</color>
+    <color name="alphaBackgroundColor">#dc323641</color>
+    <color name="lightGray">#999999</color>
+    <color name="darkGray">#666666</color>
+    <color name="deepGray">#333333</color>
+    <color name="item_divider">#f2f2f2</color>
+
+    <color name="colorBackground">#f8f8f8</color>
+    <color name="colorTextBlack">#333333</color>
+    <color name="colorTextBlackLight">#636363</color>
+    <color name="colorTextGray">#666666</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhitePressed">#DCDCDC</color>
+    <color name="toolbarMenuTextColor">#333333</color>
+    <color name="black">@android:color/black</color>
+    <color name="colorTitleText">#393939</color>
+    <color name="commonRed">#c61d1d</color>
+    <color name="driveLine">#cccccc</color>
+    <color name="alphaWhite">#e6ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="color_common_black">#30333e</color>
+</resources>

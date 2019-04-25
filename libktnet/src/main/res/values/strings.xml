@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LibKtNet</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="go_to_login">去登录</string>
+    <string name="button_login_btn">登录</string>
+</resources>

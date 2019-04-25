@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+    //retrofit+rxjava 网络请求及数据解析相关
+    compileOnly 'io.reactivex.rxjava2:rxjava:2.1.16'
+    compileOnly 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    compileOnly 'com.squareup.retrofit2:retrofit:2.4.0'
+    compileOnly 'com.squareup.retrofit2:converter-gson:2.4.0'
+    compileOnly 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    compileOnly 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    compileOnly 'com.google.code.gson:gson:2.8.5'
+
+    compileOnly "com.trello.rxlifecycle2:rxlifecycle-components:2.0.1"
+    compileOnly "com.trello.rxlifecycle2:rxlifecycle-kotlin:2.0.1"
+
+
+    //图片加载 4.X
+    compileOnly 'com.github.bumptech.glide:glide:4.5.0'
+    kapt 'com.github.bumptech.glide:compiler:4.5.0'
+}
