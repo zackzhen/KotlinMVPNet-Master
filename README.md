@@ -3,4 +3,4 @@
 
 # 如果对你有帮助，可以对作者进行打赏
 
-![avatar](http://image.gylmvip.club/Fj4mFxGXyW9mWhkKmd_m_Muzt8Jp)
+![avatar](http://image.gylmvip.club/Fii7wI6NqbXqFMLg0ZWMiYCA1wEA)
